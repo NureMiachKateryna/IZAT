@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\\u0425\u041D\u0423\u0420\u0415\\4 \u043A\u0443\u0440\u0441\\LW2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{516E9429-1AEB-4438-9119-D2215AC95CC2}|LW2.csproj|c:\\\u0445\u043D\u0443\u0440\u0435\\4 \u043A\u0443\u0440\u0441\\lw2\\\u21161.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{516E9429-1AEB-4438-9119-D2215AC95CC2}|LW2.csproj|solutionrelative:\u21161.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "\u21161.cs",
+              "DocumentMoniker": "C:\\\u0425\u041D\u0423\u0420\u0415\\4 \u043A\u0443\u0440\u0441\\LW2\\\u21161.cs",
+              "RelativeDocumentMoniker": "\u21161.cs",
+              "ToolTip": "C:\\\u0425\u041D\u0423\u0420\u0415\\4 \u043A\u0443\u0440\u0441\\LW2\\\u21161.cs",
+              "RelativeToolTip": "\u21161.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAADwv04AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T19:56:24.819Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
