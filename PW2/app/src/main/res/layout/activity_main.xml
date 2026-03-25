@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Завдання 1: Робота з Excel"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnCreateExcel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1. Створити тестовий Excel"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnProcessExcel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2. Обробити та розфарбувати"
+            android:layout_marginTop="5dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#44000000"
+            android:layout_marginVertical="20dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Завдання 2: Автоматизація Ping"
+            android:textStyle="bold"
+            android:textSize="18sp" />
+
+        <EditText
+            android:id="@+id/etUrls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+            <EditText
+                android:id="@+id/etCount"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="К-сть пінгів"
+                android:inputType="number" />
+            <EditText
+                android:id="@+id/etInterval"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Інтервал (сек)"
+                android:inputType="number" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Формат звіту:"
+            android:layout_marginTop="10dp"/>
+
+        <RadioGroup
+            android:id="@+id/rgFormat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <RadioButton android:id="@+id/rbTxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TXT" android:checked="true" />
+            <RadioButton android:id="@+id/rbXml" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="XML" android:layout_marginHorizontal="10dp" />
+            <RadioButton android:id="@+id/rbHtml" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="HTML" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnStartPing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Запустити Ping-автоматизацію"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/tvStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:text="Статус: Очікування"
+            android:background="#F0F0F0"
+            android:gravity="center"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+</ScrollView>
